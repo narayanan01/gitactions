@@ -1,0 +1,10 @@
+name: puru-test
+on: push
+
+jobs:
+ hellow-world-job:
+ runs-on: unbuntu-latest
+ steps:
+    - name: git check out stage
+      uses: actions/checkout@v4
+    - run: echo "helllo world" 
