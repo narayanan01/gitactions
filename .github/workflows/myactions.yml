@@ -3,7 +3,7 @@ on: push
 
 jobs:
  hellow-world-job:
-   runs-on: unbuntu-latest
+   runs-on: ubuntu-latest
    steps:
      - name: git check out stage
        uses: actions/checkout@v4
